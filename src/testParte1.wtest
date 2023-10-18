@@ -1,0 +1,12 @@
+import paciente.*
+import aparato.*
+describe " Parte 1"
+	method initialize(){
+		const magneto = new Magneto()
+		const leonardo = new Paciente(edad= 40,nivelDeDolor=10,nivelDeFortaleza=20)
+		const milena = new Paciente(edad= 3,nivelDeDolor=30,nivelDeFortaleza=50)
+	}
+	
+	test "Leonardo puede usar todo"{
+		assert.that
+	}
